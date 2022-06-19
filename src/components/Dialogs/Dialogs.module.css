@@ -1,0 +1,66 @@
+.dialogs{
+   display: grid;
+   grid-template-columns: 3fr 7fr;
+   position: relative;
+}
+
+
+.dialogsItems{
+   font-size: 16px;
+   padding: 5px 15px;
+   border-right: 1px solid rgb(121, 120, 120);
+
+}
+.messages{
+   font-weight: 400;
+   height: 570px;
+   position: relative;
+}
+
+.message{
+   font-size: 14px;
+   margin: 10px 45px;
+}
+
+.dialog a{
+   color: black;
+   text-decoration: none;
+}
+.dialog a:hover{
+   opacity: .77;
+}
+
+.submitMessage{
+ background: #f8fcfd;
+ position: absolute;
+ bottom: 0;
+ height: 149px;
+ width: 100%;
+ border-top: 1px solid rgb(121, 120, 120);
+}
+.textarea{
+ resize: none;
+ padding: 8px 10px;
+ position: absolute;
+ left: 7%;
+ top: 15%;
+ width: 82%;
+ height: 40%;
+}
+.btnSubmit{
+ width: 108px;
+ height: 35px;
+ background: #5181b8;
+ cursor: pointer;
+ font-size: 14px;
+ color: #ffffff;
+ border-radius: 4px;
+ border: none;
+ position: absolute;
+ bottom: 8px;
+ right: 50px;
+}
+.btnSubmit:hover{
+ opacity: .88;
+ background: #6899d1
+}

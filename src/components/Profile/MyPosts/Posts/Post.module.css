@@ -1,0 +1,13 @@
+
+.item {
+   position: relative;
+   top: 50px;
+   left: -360px;
+   margin: 15px 0;
+}
+
+.item img {
+   width: 50px;
+   height: 48px;
+   border-radius: 50px;
+}

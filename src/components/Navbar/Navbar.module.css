@@ -1,0 +1,33 @@
+.nav {
+    grid-area: n;
+    padding: 10px;
+    min-height: 550px;
+}
+
+.item {
+    margin: 4px 25px 4px 0;
+    color: #889fab;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.item img{
+    width: 20px;
+    height: 20px;
+   
+}
+.item:hover{
+    opacity: .78;
+    color: rgb(90, 88, 88);
+}
+
+.activeLink {
+    color: black;
+    font-size: 17px;
+}
+
+
+
+/* такая запись тоже самое что выше - если потом в жсх мы через пробел указываем два стиля  */
+/* .active{
+    font-weight:100;
+} */

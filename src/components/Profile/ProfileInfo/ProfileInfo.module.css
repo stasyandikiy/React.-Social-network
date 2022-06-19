@@ -1,0 +1,77 @@
+
+ .photoBlock img {
+   height: 350px;
+   width: 270px;
+   margin: 10px;
+   display: inline-block;
+}
+
+ .descriptionBlock {
+   padding: 10px;
+   display: inline-block;
+   position: relative;
+   left: 330px;
+   top: -445px;
+ }
+
+ .userPhoto {
+    height: 70px;
+ }
+
+ .profileBlock {
+    font-weight: normal;
+ }
+
+ .contact {
+    padding-left: 20px;
+ }
+
+ .buttonCancel {
+    margin-left: 13px;
+ }
+ 
+
+ .redact{
+    position: absolute;
+    left: -315px;
+    top: 320px;
+    background: none;
+    border:none;
+    color: rgb(15, 107, 247);
+    font-size: 15px;
+ }
+
+.loadingPhoto{
+   position: relative;
+   left: 350px;
+   top: 110px;
+}
+.profileBlock{
+   position: relative;
+   left: -20px;
+}
+
+ .redact img{
+   width: 14px;
+   height: 14px;
+   margin-right: 7px;
+}
+ .redact:hover{
+    cursor: pointer;
+    opacity: .9;
+    color: rgb(0, 0, 0);
+ }
+
+ .textareaInfo{
+    padding: 6px;
+    width: 230px;
+    height: 44px;
+    resize: none;
+    overflow-y: scroll;
+ }
+
+ .status{
+    position: relative;
+    left: 17px;
+    font-size: 18px;
+ }

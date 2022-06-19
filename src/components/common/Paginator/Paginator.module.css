@@ -1,0 +1,32 @@
+.paginator {
+   margin: 10px auto;
+}
+
+.pageNumber {
+   padding: 8px 8px;
+   border: 1px solid rgb(255, 252, 93);
+   border-radius: 5px;
+   background: rgb(101, 167, 253);
+}
+.pageNumber:hover{
+   opacity: .8;
+   cursor: pointer;
+}
+
+
+
+.pageNumber.selectedPage {
+   font-weight: bold;
+   border-color: black;
+} 
+
+.btn{
+   background-color: rgb(101, 167, 253);
+   padding: 7px;
+   margin: 0 5px;
+   border-radius: 10px;
+}
+.btn:hover {
+   cursor: pointer;
+   opacity: .8;
+}

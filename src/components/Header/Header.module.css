@@ -1,0 +1,48 @@
+.header {
+   grid-area: h;
+   background-color: #4a75a0;
+}
+
+.header img {
+   width: 70px;
+   margin: 3px 20px;
+}
+
+.inputSearch{
+   width: 234px;
+   color: rgb(223, 217, 217);
+   height: 23px;
+   padding: 3px 8px;
+   border-radius: 15px;
+   border: none;
+   background: #1c4b7b;
+   position: relative;
+   top: -35px;
+   left: 180px;
+}
+
+.loginBlockIsAuth {
+   float: right;
+   margin-right: 50px;
+   font-weight: bold;
+}
+.loginBlockIsAuth button{
+   border-radius: 9px;
+   background: white;
+   padding: 4px 12px;
+}
+.loginBlockIsAuth button:hover{
+   cursor: pointer;
+   opacity: .8;
+}
+
+
+.loginBlockNotAuth {
+   margin-left: 15px;
+   font-weight: bold;
+   color: #ef5050;
+}
+
+/*.loginBlock a {*/
+/*   color: #4f4fe5;*/
+/*}*/
